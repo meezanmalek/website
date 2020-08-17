@@ -1,0 +1,216 @@
+@keyframes smooth-up
+{
+	0%
+	{
+		transform:translateY(20%);
+		opacity:0;
+	}
+	100%
+	{
+		transform:translateY(0%);
+		opacity:1;
+	}
+}
+
+@keyframes smooth-right
+{
+	0%
+	{
+		transform:translateX(-20%);
+		opacity:0;
+	}
+	100%
+	{
+		transform:translatex(0%);
+		opacity:1;
+	}
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation
+{
+    
+    background-color: black;
+    color:white;
+    margin-left:0px;
+    padding: 0px 0px;
+}
+
+#navigation h1{
+    padding: 1vw 1vw;
+}
+
+#main-section
+{
+    text-align: center ;
+    height: 90vh;
+   
+}
+
+
+#main-section .text
+{
+    color: crimson;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    animation: smooth-up 1s ease;
+}
+
+#main-section button
+{
+    text-decoration:none ;
+    background-color:crimson ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+#about
+{
+    
+    background-color:crimson ;
+}
+
+#about img{
+    height: 450px;
+    border:2px solid;
+    margin-top: 100px;
+    border-color: black;
+    border-radius: 50px 0px 50px 0px;
+    animation: smooth-right 1s ease;
+}
+#about_text{
+    margin-top: 5vw;
+    margin-bottom:4vw ;
+    padding: 20px 20px;
+    color: white;
+    animation: smooth-up 1s ease;
+    font-size: 20px;
+}
+#about button
+{
+    text-decoration:none ;
+    background-color:white ;
+    color: crimson;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.fade_text
+{
+    opacity: .7;
+}
+
+#qualification h1
+{
+    color: crimson;
+    
+}
+
+#awards-section
+{
+    background-color: crimson;
+    color:white;
+}
+
+#awards-section h1
+{
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#skills-section h1
+{
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#service-section
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   color: crimson;
+    
+}
+
+#project-section
+{
+    background-color: crimson;
+    color:white;
+}
+
+#project-section img
+{
+    height: 350px;
+   
+}
+
+#project-section a
+{
+    color: gold;
+}
+
+#form{
+    border:3px solid crimson;
+}
+.contact-box
+{
+    border:1px solid crimson;
+    
+ 
+}
+.contact-box a
+{ 
+    text-decoration: none;
+    color: crimson;
+ 
+}
+
+#submitbtn
+{
+    text-decoration:none ;
+    background-color:crimson ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#footer-section
+{
+    background-color: black;
+    color:white;
+}
+
+#footer-section i 
+{
+    padding:5px 20px;
+    font-size: 30px;
+    color:white;
+}
+
+#navigation i 
+{
+    padding:5px 20px;
+    font-size: 30px;
+    color:white;
+}
